@@ -1,0 +1,38 @@
+body {
+
+    color:rgb(220, 161, 241);
+    background-image: url(https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?cs=srgb&dl=pexels-apasaric-1820770.jpg&fm=jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 3px;
+}
+
+header {
+ color:rgb(212, 72, 255);
+ border: solid 5px rgb(28, 19, 36);
+padding: 0px;
+font-size: 32px;    
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: normal;
+
+}
+.chamada-texto {
+    margin-right:30px;
+    font-size:32px;
+}
+#sections {
+    justify-content:right;
+}
+.categoria-videos img{
+height: 200px;
+opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+}
